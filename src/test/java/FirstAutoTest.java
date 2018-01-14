@@ -53,8 +53,6 @@ public class FirstAutoTest {
             driver.switchTo().window(winHamdle);
         }
         Thread.sleep(3000);
-        driver.get("https://online.sberbankins.ru/store/vzr/index.html#/viewCalc");
-        Thread.sleep(3000);
         System.out.println("Step 6: На вкладке – Выбор полиса  выбрать сумму страховой защиты – Минимальная - Ок");
         driver.findElement(By.xpath("//div[text()='Минимальная']")).click();
         Thread.sleep(1000);
