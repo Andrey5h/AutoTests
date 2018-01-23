@@ -1,5 +1,6 @@
 package pages;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -35,6 +36,10 @@ public class SPpage extends BasePage {
 
     public void clickButton(){
         driver.findElement(By.xpath("//SPAN[@ng-click='save()'][text()='Оформить']")).click();
+    }
+
+    public void checkTitle (){
+        Assert.assertTrue(driver.findElement(By.cssSelector("div[class='sbrf-rich-outer']")).getText().contains("Страхование путешественников"));
     }
 
 }

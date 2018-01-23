@@ -11,6 +11,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import static org.junit.Assert.assertEquals;
+
 /**
  * Created by Maria on 07.09.2017.
  */
@@ -92,11 +94,19 @@ public class SendAppPage extends BasePage {
         throw new AssertionError("Поле не объявлено на странице");
     }
 
-
-    public void checkFieldErrorMessage(String field, String errorMessage){
-        String xpath = "//*[text()='"+field+"']/..//*[@class='validation-error']";
-        String actualValue = driver.findElement(By.xpath(xpath)).getText();
-        Assert.assertTrue(String.format("Получено значение [%s]. Ожидалось [%s]", actualValue, errorMessage),
-                actualValue.contains(errorMessage));
+    public void checkFields(){
+        assertEquals("Ivanov", driver.findElement(By.name("insured0_surname")).getAttribute("value"));
+        assertEquals("Ivan", driver.findElement(By.name("insured0_name")).getAttribute("value"));
+        assertEquals("01.01.1990", driver.findElement(By.name("insured0_birthDate")).getAttribute("value"));
+        assertEquals("Иванов", driver.findElement(By.name("surname")).getAttribute("value"));
+        assertEquals("Иванович", driver.findElement(By.name("middlename")).getAttribute("value"));
+        assertEquals("Иван", driver.findElement(By.name("name")).getAttribute("value"));
+        assertEquals("01.01.1990", driver.findElement(By.name("birthDate")).getAttribute("value"));
     }
+    public void checkError(){
+        assertEquals("Заполнены не все обязательные поля", driver.findElement(By.xpath("//DIV[@ng-show='tryNext && myForm.$invalid'][text()='Заполнены не все обязательные поля']")).getText());
+    }
+
+
+
 }

@@ -12,17 +12,13 @@ public class MyRafactoringTest extends BaseTest {
         mainPage.selectMainMenu("Застраховать себя");
         mainPage.waitVisibilityOfelement();
         mainPage.selectSubMenu("Страхование путешественников");
-        Thread.sleep(1000);
 
         SPpage sPpage = new SPpage(driver);
+        sPpage.checkTitle();
         sPpage.sendButton.click();
-        Thread.sleep(1000);
         sPpage.switchWindows();
-        Thread.sleep(1000);
         sPpage.waitElementToBeClickable();
-        Thread.sleep(1000);
         sPpage.clickButton();
-        Thread.sleep(10000);
 
         SendAppPage sendAppPage = new SendAppPage(driver);
 
@@ -31,11 +27,11 @@ public class MyRafactoringTest extends BaseTest {
         sendAppPage.fillField("Отчество", "Иванович");
         sendAppPage.fillField("Фамилия2", "Ivanov");
         sendAppPage.fillField("Имя2", "Ivan");
-        sendAppPage.fillField("Дата рождения", "10.10.1989");
-        sendAppPage.fillField("Дата рождения2", "10.10.1989");
-        Thread.sleep(1000);
+        sendAppPage.fillField("Дата рождения", "01.01.1990");
+        sendAppPage.fillField("Дата рождения2", "01.01.1990");
+        sendAppPage.checkFields();
         sendAppPage.sendButton.click();
-        Thread.sleep(10000);
+        sendAppPage.checkError();
 
     }
 
