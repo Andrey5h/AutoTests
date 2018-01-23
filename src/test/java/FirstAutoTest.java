@@ -15,12 +15,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class FirstAutoTest extends BaseTest {
 
     @Test
-    @Ignore
     public void firstTest() throws InterruptedException {
         System.out.println("Step 1: Переходим на сайте Сбербанка http://www.sberbank.ru/ru/person - Ок");
         driver.get(baseUrl);
         System.out.println("Step 2: Нажать на – Застраховать себя и имущество - Ок");
-        driver.findElement(By.xpath("//*[@id='main']/div/div/table/tbody/tr/td/div/div/div/div/div/div[1]/div[1]/div[4]/div/div/div/ul/li[5]/a/span")).click();
+        driver.findElement(By.xpath("//div[contains(@class,'bp-area header-container')]//span[contains(text(),'Застраховать себя')]")).click();
 
         Wait<WebDriver> wait = new WebDriverWait(driver, 5, 1000);
         wait.until(ExpectedConditions.visibilityOf(
