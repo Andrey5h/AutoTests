@@ -15,6 +15,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class FirstAutoTest extends BaseTest {
 
     @Test
+    @Ignore
     public void firstTest() throws InterruptedException {
         System.out.println("Step 1: Переходим на сайте Сбербанка http://www.sberbank.ru/ru/person - Ок");
         driver.get(baseUrl);
