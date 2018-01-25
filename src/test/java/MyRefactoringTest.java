@@ -3,7 +3,7 @@ import pages.MainPage;
 import pages.SPpage;
 import pages.SendAppPage;
 
-public class MyRafactoringTest extends BaseTest {
+public class MyRefactoringTest extends BaseTest {
 
     @Test
     public void newAutoTest() throws InterruptedException {
