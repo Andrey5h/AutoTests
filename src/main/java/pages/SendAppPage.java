@@ -13,9 +13,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * Created by Maria on 07.09.2017.
- */
 public class SendAppPage extends BasePage {
 
     @FindBy(name = "insured0_surname")
