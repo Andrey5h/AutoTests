@@ -1,0 +1,68 @@
+{
+  "time" : {
+    "start" : 1517056382679,
+    "stop" : 1517056382679,
+    "duration" : 0
+  },
+  "testSuites" : [ {
+    "uid" : "bd7e59aa541d95d1",
+    "name" : "FirstAutoTest",
+    "title" : "First auto test",
+    "time" : {
+      "start" : 1517056382679,
+      "stop" : 1517056382679,
+      "duration" : 0
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 0,
+      "pending" : 1,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "368e5c8c93d98797",
+      "name" : "firstTest",
+      "title" : "First test",
+      "time" : {
+        "start" : 1517056382679,
+        "stop" : 1517056382679,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PENDING"
+    } ]
+  }, {
+    "uid" : "79be980fb0873ca5",
+    "name" : "MyRefactoringTest",
+    "title" : "My refactoring test",
+    "time" : {
+      "start" : 1517056382679,
+      "stop" : 1517056382679,
+      "duration" : 0
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 0,
+      "pending" : 1,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "45d261e71c4f5859",
+      "name" : "newAutoTest",
+      "title" : "New auto test",
+      "time" : {
+        "start" : 1517056382679,
+        "stop" : 1517056382679,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PENDING"
+    } ]
+  } ]
+}

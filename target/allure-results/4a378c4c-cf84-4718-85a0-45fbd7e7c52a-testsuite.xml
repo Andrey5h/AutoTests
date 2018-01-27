@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1517056382663" stop="1517056382913" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>FirstAutoTest</name>
+    <test-cases>
+        <test-case start="1517056382679" stop="1517056382679" status="pending">
+            <name>firstTest</name>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-DLBNCAD"/>
+                <label name="thread" value="6820@DESKTOP-DLBNCAD.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,3 +1,5 @@
+package steps;
+
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -8,11 +10,17 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import util.TestProperties;
+
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 import static org.junit.Assert.assertEquals;
 
-public class BaseTest {
+public class BaseSteps {
+    public static WebDriver getDriver() {
+        return driver;
+    }
+
     protected static WebDriver driver;
     protected static String baseUrl;
     public static Properties properties = TestProperties.getInstance().getProperties();

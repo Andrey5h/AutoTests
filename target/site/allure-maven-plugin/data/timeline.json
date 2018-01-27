@@ -1,0 +1,31 @@
+{
+  "hosts" : [ {
+    "title" : "DESKTOP-DLBNCAD",
+    "threads" : [ {
+      "title" : "6820@DESKTOP-DLBNCAD.main(1)",
+      "testCases" : [ {
+        "uid" : "368e5c8c93d98797",
+        "name" : "firstTest",
+        "title" : "First test",
+        "time" : {
+          "start" : 1517056382679,
+          "stop" : 1517056382679,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      }, {
+        "uid" : "45d261e71c4f5859",
+        "name" : "newAutoTest",
+        "title" : "New auto test",
+        "time" : {
+          "start" : 1517056382679,
+          "stop" : 1517056382679,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      } ]
+    } ]
+  } ]
+}

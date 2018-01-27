@@ -3,16 +3,15 @@
  * First AutoTest
  */
 
-import java.util.concurrent.TimeUnit;
 import org.junit.*;
 import static org.junit.Assert.*;
 import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import steps.BaseSteps;
 
-public class FirstAutoTest extends BaseTest {
+public class FirstAutoTest extends BaseSteps {
 
     @Test
     @Ignore

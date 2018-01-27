@@ -1,11 +1,20 @@
+/**
+ * @author Andrey Strelnikov
+ * First AutoTest
+ */
+
+
+import org.junit.Ignore;
 import org.junit.Test;
 import pages.MainPage;
 import pages.SPpage;
 import pages.SendAppPage;
+import steps.BaseSteps;
 
-public class MyRefactoringTest extends BaseTest {
+public class MyRefactoringTest extends BaseSteps {
 
     @Test
+    @Ignore
     public void newAutoTest() throws InterruptedException {
         driver.get(baseUrl);
         MainPage mainPage = new MainPage(driver);

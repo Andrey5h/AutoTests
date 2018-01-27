@@ -1,0 +1,50 @@
+{
+  "uid" : "45d261e71c4f5859",
+  "name" : "newAutoTest",
+  "title" : "New auto test",
+  "time" : {
+    "start" : 1517056382679,
+    "stop" : 1517056382679,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "Test ignored (without reason)!",
+    "stackTrace" : "There are no stack trace"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PENDING",
+  "suite" : {
+    "uid" : "79be980fb0873ca5",
+    "name" : "MyRefactoringTest",
+    "title" : "My refactoring test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DLBNCAD"
+  }, {
+    "name" : "thread",
+    "value" : "6820@DESKTOP-DLBNCAD.main(1)"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "MyRefactoringTest"
+  } ],
+  "parameters" : [ ]
+}
