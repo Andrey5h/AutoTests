@@ -17,7 +17,7 @@ import ru.yandex.qatools.allure.annotations.Step;
 public class SPSteps extends BaseSteps {
 
     @Step ("Выполнена проверка текстовки Страхование путешественников на странице SP")
-    public void checkText (){
+    public void stepCheckText (){
         Assert.assertTrue(driver.findElement(By.cssSelector("div[class='sbrf-rich-outer']")).getText().contains("Страхование путешественников"));
     }
 
@@ -28,21 +28,21 @@ public class SPSteps extends BaseSteps {
     }
 
     @Step("Выполнен переход на страницу выбора полиса")
-    public void switchWindow() {
+    public void stepSwitchWindow() {
         for (String winHandle : driver.getWindowHandles()) {
 
             driver.switchTo().window(winHandle);
         }
     }
     @Step ("Выполнено нажатие на поле 'выберите сумму страховой защиты' - Минимальная")
-    public void clickMinSum(){
+    public void stepClickMinSum(){
         Wait<WebDriver> wait = new WebDriverWait(driver, 5, 1000);
         wait.until(ExpectedConditions.visibilityOf(
                 driver.findElement(By.xpath("//*[contains(text(),\"Минимальная\")]")))).click();
     }
 
     @Step ("Выполнено нажатие на кнопку Продолжить")
-    public void clickButtonNext(){
+    public void stepClickButtonNext(){
         driver.findElement(By.xpath("//SPAN[@ng-click='save()'][text()='Оформить']")).click();
     }
 

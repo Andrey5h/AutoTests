@@ -33,11 +33,11 @@ public class TestForAllureReport extends BaseSteps {
         mainSteps.stepSelectMainMenu("Застраховать себя");
         mainSteps.stepSelectSubMenu("Страхование путешественников");
 
-        spSteps.checkText();
+        spSteps.stepCheckText();
         spSteps.stepSendAppButton();
-        spSteps.switchWindow();
-        spSteps.clickMinSum();
-        spSteps.clickButtonNext();
+        spSteps.stepSwitchWindow();
+        spSteps.stepClickMinSum();
+        spSteps.stepClickButtonNext();
         sendAppSteps.stepFillFields(testDate);
         sendAppSteps.stepCheckFields();
         sendAppSteps.stepClickButton();
