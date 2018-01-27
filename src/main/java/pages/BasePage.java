@@ -1,3 +1,7 @@
+/**
+ * @author Andrey Strelnikov
+ * First AutoTest
+ */
 package pages;
 
 import org.openqa.selenium.By;

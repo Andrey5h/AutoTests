@@ -4,16 +4,16 @@
     "total" : {
       "statistic" : {
         "total" : 2,
-        "passed" : 0,
-        "pending" : 2,
+        "passed" : 1,
+        "pending" : 1,
         "canceled" : 0,
         "failed" : 0,
         "broken" : 0
       },
       "time" : {
-        "start" : 1517056382679,
-        "stop" : 1517056382679,
-        "duration" : 0
+        "start" : 1517063523420,
+        "stop" : 1517063537050,
+        "duration" : 13630
       }
     },
     "defects" : {
@@ -23,8 +23,8 @@
     "xunit" : {
       "totalCount" : 2,
       "items" : [ {
-        "uid" : "bd7e59aa541d95d1",
-        "title" : "First auto test",
+        "uid" : "984806920e18e733",
+        "title" : "My refactoring test",
         "statistic" : {
           "total" : 1,
           "passed" : 0,
@@ -34,12 +34,12 @@
           "broken" : 0
         }
       }, {
-        "uid" : "79be980fb0873ca5",
-        "title" : "My refactoring test",
+        "uid" : "87faa2b3ba1ea73e",
+        "title" : "Test for allure report",
         "statistic" : {
           "total" : 1,
-          "passed" : 0,
-          "pending" : 1,
+          "passed" : 1,
+          "pending" : 0,
           "canceled" : 0,
           "failed" : 0,
           "broken" : 0
@@ -52,8 +52,8 @@
         "title" : "Without feature",
         "statistic" : {
           "total" : 2,
-          "passed" : 0,
-          "pending" : 2,
+          "passed" : 1,
+          "pending" : 1,
           "canceled" : 0,
           "failed" : 0,
           "broken" : 0

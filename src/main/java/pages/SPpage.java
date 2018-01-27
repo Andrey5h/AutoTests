@@ -1,3 +1,8 @@
+/**
+ * @author Andrey Strelnikov
+ * First AutoTest
+ */
+
 package pages;
 
 import org.junit.Assert;

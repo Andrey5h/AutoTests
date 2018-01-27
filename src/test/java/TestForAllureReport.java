@@ -11,10 +11,12 @@ import steps.SPSteps;
 import steps.SendAppSteps;
 import java.util.HashMap;
 
-public class MyTestForAllureReport extends BaseSteps {
+public class TestForAllureReport extends BaseSteps {
 
     @Test
+    @Title("Страхование путешественников")
     public void testTravelInsurance() throws InterruptedException {
+        driver.get(baseUrl);
         MainSteps mainSteps = new MainSteps();
         SPSteps spSteps = new SPSteps();
         SendAppSteps sendAppSteps = new SendAppSteps();
@@ -31,7 +33,14 @@ public class MyTestForAllureReport extends BaseSteps {
         mainSteps.stepSelectMainMenu("Застраховать себя");
         mainSteps.stepSelectSubMenu("Страхование путешественников");
 
+        spSteps.checkText();
         spSteps.stepSendAppButton();
-        sendAppSteps.stepFillField();
+        spSteps.switchWindow();
+        spSteps.clickMinSum();
+        spSteps.clickButtonNext();
+        sendAppSteps.stepFillFields(testDate);
+        sendAppSteps.stepCheckFields();
+        sendAppSteps.stepClickButton();
+        sendAppSteps.stepCheckError();
     }
 }

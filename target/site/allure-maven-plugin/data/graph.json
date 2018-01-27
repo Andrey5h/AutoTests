@@ -1,22 +1,22 @@
 {
   "testCases" : [ {
-    "uid" : "368e5c8c93d98797",
-    "name" : "firstTest",
-    "title" : "First test",
+    "uid" : "e032baaab4637d45",
+    "name" : "testTravelInsurance",
+    "title" : "Страхование путешественников",
     "time" : {
-      "start" : 1517056382679,
-      "stop" : 1517056382679,
-      "duration" : 0
+      "start" : 1517063527601,
+      "stop" : 1517063537050,
+      "duration" : 9449
     },
     "severity" : "NORMAL",
-    "status" : "PENDING"
+    "status" : "PASSED"
   }, {
-    "uid" : "45d261e71c4f5859",
+    "uid" : "dd79d1657442abdf",
     "name" : "newAutoTest",
     "title" : "New auto test",
     "time" : {
-      "start" : 1517056382679,
-      "stop" : 1517056382679,
+      "start" : 1517063523420,
+      "stop" : 1517063523420,
       "duration" : 0
     },
     "severity" : "NORMAL",

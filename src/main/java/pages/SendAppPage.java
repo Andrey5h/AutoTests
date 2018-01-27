@@ -71,26 +71,6 @@ public class SendAppPage extends BasePage {
         }
     }
 
-    public String getFillField(String fieldName){
-        switch (fieldName){
-            case  "Фамилия":
-                return surname.getAttribute("value");
-            case  "Имя":
-                return name.getAttribute("value");
-            case  "Отчество":
-                return middlename.getAttribute("value");
-            case  "Фамилия2":
-                return insured_surname.getAttribute("value");
-            case  "Имя2":
-                return insured_name.getAttribute("value");
-            case  "Дата рождения":
-                return insured_birthDate.getAttribute("value");
-            case  "Дата рождения2":
-                return birthDate.getAttribute("value");
-        }
-        throw new AssertionError("Поле не объявлено на странице");
-    }
-
     public void checkFields(){
         assertEquals("Ivanov", driver.findElement(By.name("insured0_surname")).getAttribute("value"));
         assertEquals("Ivan", driver.findElement(By.name("insured0_name")).getAttribute("value"));
