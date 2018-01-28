@@ -3,45 +3,45 @@
     "title" : "Without feature",
     "statistic" : {
       "total" : 2,
-      "passed" : 0,
+      "passed" : 1,
       "pending" : 1,
       "canceled" : 0,
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0
     },
     "stories" : [ {
-      "uid" : "230952a8f1b038fb",
+      "uid" : "a616177f4e5df22b",
       "title" : "Without story",
       "statistic" : {
         "total" : 2,
-        "passed" : 0,
+        "passed" : 1,
         "pending" : 1,
         "canceled" : 0,
-        "failed" : 1,
+        "failed" : 0,
         "broken" : 0
       },
       "testCases" : [ {
-        "uid" : "163c97a4d3a9e5ef",
+        "uid" : "d2827d88245d982",
         "name" : "newAutoTest",
         "title" : "New auto test",
         "time" : {
-          "start" : 1517080260927,
-          "stop" : 1517080260927,
+          "start" : 1517135134266,
+          "stop" : 1517135134266,
           "duration" : 0
         },
         "severity" : "NORMAL",
         "status" : "PENDING"
       }, {
-        "uid" : "6e3cd86c267fabd5",
+        "uid" : "2196131b4718558c",
         "name" : "testTravelInsurance",
         "title" : "Страхование путешественников",
         "time" : {
-          "start" : 1517080265119,
-          "stop" : 1517080274816,
-          "duration" : 9697
+          "start" : 1517135138466,
+          "stop" : 1517135148121,
+          "duration" : 9655
         },
         "severity" : "NORMAL",
-        "status" : "FAILED"
+        "status" : "PASSED"
       } ]
     } ]
   } ]

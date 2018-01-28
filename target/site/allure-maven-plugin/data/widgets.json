@@ -4,31 +4,26 @@
     "total" : {
       "statistic" : {
         "total" : 2,
-        "passed" : 0,
+        "passed" : 1,
         "pending" : 1,
         "canceled" : 0,
-        "failed" : 1,
+        "failed" : 0,
         "broken" : 0
       },
       "time" : {
-        "start" : 1517080260927,
-        "stop" : 1517080274816,
-        "duration" : 13889
+        "start" : 1517135134266,
+        "stop" : 1517135148121,
+        "duration" : 13855
       }
     },
     "defects" : {
-      "totalCount" : 1,
-      "items" : [ {
-        "count" : 1,
-        "uid" : "6e03e1272121c543",
-        "message" : "ComparisonFailure: expected:<Иванови[ч]> but was:<Иванови[]>",
-        "status" : "FAILED"
-      } ]
+      "totalCount" : 0,
+      "items" : [ ]
     },
     "xunit" : {
       "totalCount" : 2,
       "items" : [ {
-        "uid" : "9fa35f4d7ff0b4eb",
+        "uid" : "5cde9d6b94554c1c",
         "title" : "My refactoring test",
         "statistic" : {
           "total" : 1,
@@ -39,14 +34,14 @@
           "broken" : 0
         }
       }, {
-        "uid" : "995ee733a5b5d66f",
+        "uid" : "d02f5cb5bc69d57",
         "title" : "Test for allure report",
         "statistic" : {
           "total" : 1,
-          "passed" : 0,
+          "passed" : 1,
           "pending" : 0,
           "canceled" : 0,
-          "failed" : 1,
+          "failed" : 0,
           "broken" : 0
         }
       } ]
@@ -57,10 +52,10 @@
         "title" : "Without feature",
         "statistic" : {
           "total" : 2,
-          "passed" : 0,
+          "passed" : 1,
           "pending" : 1,
           "canceled" : 0,
-          "failed" : 1,
+          "failed" : 0,
           "broken" : 0
         }
       } ]

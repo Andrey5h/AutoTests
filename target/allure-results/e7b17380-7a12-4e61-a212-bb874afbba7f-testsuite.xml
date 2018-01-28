@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1517135138466" stop="1517135149352" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>TestForAllureReport</name>
+    <test-cases>
+        <test-case start="1517135138466" stop="1517135148121" status="passed">
+            <name>testTravelInsurance</name>
+            <title>Страхование путешественников</title>
+            <steps>
+                <step start="1517135138513" stop="1517135141346" status="passed">
+                    <name>stepTransferToSberbank</name>
+                    <title>Осуществлен переход на страницу сбербанка</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517135141347" stop="1517135141760" status="passed">
+                    <name>stepSelectMainMenu[Застраховать себя]</name>
+                    <title>Выбран пунк меню Застраховать себя</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517135141761" stop="1517135144450" status="passed">
+                    <name>stepSelectSubMenu[Страхование путешественников]</name>
+                    <title>Выбран пунк меню Страхование путешественников]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517135144452" stop="1517135144652" status="passed">
+                    <name>stepCheckText</name>
+                    <title>Выполнена проверка текстовки Страхование путешественников на странице SP</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517135144652" stop="1517135144799" status="passed">
+                    <name>stepSendAppButton</name>
+                    <title>Выполнено нажатие на кнопку - оформить онлайн</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517135144800" stop="1517135144846" status="passed">
+                    <name>stepSwitchWindow</name>
+                    <title>Выполнен переход на страницу выбора полиса</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517135144847" stop="1517135147203" status="passed">
+                    <name>stepClickMinSum</name>
+                    <title>Выполнено нажатие на поле выберите сумму страховой защиты - Минимальная</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517135147204" stop="1517135147373" status="passed">
+                    <name>stepClickButtonNext</name>
+                    <title>Выполнено нажатие на кнопку Продолжить</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517135147374" stop="1517135147959" status="passed">
+                    <name>stepFillFields[{Фамилия2=Ivanov, Имя=Иван, Фамилия=Иванов, Дата рождения2=01.01.1990, Имя2=Ivan, Отчество=Иванович, Дата...]</name>
+                    <title>Заполняются поля: </title>
+                    <attachments/>
+                    <steps>
+                        <step start="1517135147375" stop="1517135147476" status="passed">
+                            <name>stepFillField[Фамилия2, Ivanov]</name>
+                            <title>Поле Фамилия2 заполняется значенем Ivanov</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517135147477" stop="1517135147549" status="passed">
+                            <name>stepFillField[Имя, Иван]</name>
+                            <title>Поле Имя заполняется значенем Иван</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517135147549" stop="1517135147616" status="passed">
+                            <name>stepFillField[Фамилия, Иванов]</name>
+                            <title>Поле Фамилия заполняется значенем Иванов</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517135147616" stop="1517135147719" status="passed">
+                            <name>stepFillField[Дата рождения2, 01.01.1990]</name>
+                            <title>Поле Дата рождения2 заполняется значенем 01.01.1990</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517135147720" stop="1517135147785" status="passed">
+                            <name>stepFillField[Имя2, Ivan]</name>
+                            <title>Поле Имя2 заполняется значенем Ivan</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517135147785" stop="1517135147859" status="passed">
+                            <name>stepFillField[Отчество, Иванович]</name>
+                            <title>Поле Отчество заполняется значенем Иванович</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1517135147860" stop="1517135147959" status="passed">
+                            <name>stepFillField[Дата рождения, 01.01.1990]</name>
+                            <title>Поле Дата рождения заполняется значенем 01.01.1990</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1517135147959" stop="1517135148029" status="passed">
+                    <name>stepCheckFields</name>
+                    <title>Поля заполнены!</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517135148029" stop="1517135148096" status="passed">
+                    <name>stepClickButton</name>
+                    <title>Выполнено нажатие на кнопку - Продолжить</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517135148096" stop="1517135148120" status="passed">
+                    <name>stepCheckError</name>
+                    <title>Проверка появления текста Заполнены не все обязательные поля</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-DLBNCAD"/>
+                <label name="thread" value="6596@DESKTOP-DLBNCAD.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

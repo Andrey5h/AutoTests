@@ -16,7 +16,7 @@ public class TestForAllureReport extends BaseSteps {
     @Test
     @Title("Страхование путешественников")
     public void testTravelInsurance() throws InterruptedException {
-        driver.get(baseUrl);
+
         MainSteps mainSteps = new MainSteps();
         SPSteps spSteps = new SPSteps();
         SendAppSteps sendAppSteps = new SendAppSteps();

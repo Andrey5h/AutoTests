@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:test-suite start="1517080260905" stop="1517080275951" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+<ns2:test-suite start="1517135134250" stop="1517135149243" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
     <name>MyRefactoringTest</name>
     <test-cases>
-        <test-case start="1517080260927" stop="1517080260927" status="pending">
+        <test-case start="1517135134266" stop="1517135134266" status="pending">
             <name>newAutoTest</name>
             <failure>
                 <message>Test ignored (without reason)!</message>
@@ -12,7 +12,7 @@
             <attachments/>
             <labels>
                 <label name="host" value="DESKTOP-DLBNCAD"/>
-                <label name="thread" value="7300@DESKTOP-DLBNCAD.main(1)"/>
+                <label name="thread" value="6596@DESKTOP-DLBNCAD.main(1)"/>
             </labels>
         </test-case>
     </test-cases>
