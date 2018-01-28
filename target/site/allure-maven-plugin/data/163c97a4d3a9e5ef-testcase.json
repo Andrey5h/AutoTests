@@ -1,10 +1,10 @@
 {
-  "uid" : "441456cf4cce9121",
+  "uid" : "163c97a4d3a9e5ef",
   "name" : "newAutoTest",
   "title" : "New auto test",
   "time" : {
-    "start" : 1517079620099,
-    "stop" : 1517079620099,
+    "start" : 1517080260927,
+    "stop" : 1517080260927,
     "duration" : 0
   },
   "summary" : {
@@ -19,7 +19,7 @@
   "severity" : "NORMAL",
   "status" : "PENDING",
   "suite" : {
-    "uid" : "89f137c31f8b00d5",
+    "uid" : "9fa35f4d7ff0b4eb",
     "name" : "MyRefactoringTest",
     "title" : "My refactoring test"
   },
@@ -34,14 +34,14 @@
     "name" : "language",
     "value" : "JAVA"
   }, {
-    "name" : "thread",
-    "value" : "4764@DESKTOP-DLBNCAD.main(1)"
-  }, {
     "name" : "host",
     "value" : "DESKTOP-DLBNCAD"
   }, {
     "name" : "suite-title",
     "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "7300@DESKTOP-DLBNCAD.main(1)"
   }, {
     "name" : "suite-name",
     "value" : "MyRefactoringTest"

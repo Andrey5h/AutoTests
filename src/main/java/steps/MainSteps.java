@@ -10,6 +10,11 @@ import ru.yandex.qatools.allure.annotations.Step;
 
 public class MainSteps extends BaseSteps{
 
+    @Step ("Осуществлен переход на страницу сбербанка")
+    public void stepTransferToSberbank (){
+        driver.get(baseUrl);
+    }
+
     @Step("Выбран пунк меню {0}")
     public void stepSelectMainMenu(String menuItem){
         MainPage mainPage = new MainPage(driver);

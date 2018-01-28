@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestForAllureReport
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.686 s - in TestForAllureReport
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 14.946 s <<< FAILURE! - in TestForAllureReport
+testTravelInsurance(TestForAllureReport)  Time elapsed: 9.24 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Иванови[ч]> but was:<Иванови[]>
+	at TestForAllureReport.testTravelInsurance(TestForAllureReport.java:42)
+

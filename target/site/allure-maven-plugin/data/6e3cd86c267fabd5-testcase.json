@@ -1,22 +1,25 @@
 {
-  "uid" : "6282e7aae970d8dc",
+  "uid" : "6e3cd86c267fabd5",
   "name" : "testTravelInsurance",
   "title" : "Страхование путешественников",
   "time" : {
-    "start" : 1517079625241,
-    "stop" : 1517079634019,
-    "duration" : 8778
+    "start" : 1517080265119,
+    "stop" : 1517080274816,
+    "duration" : 9697
   },
   "summary" : {
-    "attachments" : 0,
-    "steps" : 18
+    "attachments" : 1,
+    "steps" : 16
   },
-  "failure" : null,
+  "failure" : {
+    "message" : "ComparisonFailure: expected:<Иванови[ч]> but was:<Иванови[]>",
+    "stackTrace" : "org.junit.ComparisonFailure: expected:<Иванови[ч]> but was:<Иванови[]>\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat steps.SendAppSteps.stepCheckFields(SendAppSteps.java:34)\n\tat TestForAllureReport.testTravelInsurance(TestForAllureReport.java:42)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:236)\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)\n"
+  },
   "description" : null,
   "severity" : "NORMAL",
-  "status" : "PASSED",
+  "status" : "FAILED",
   "suite" : {
-    "uid" : "69affb93d7ee6c2e",
+    "uid" : "995ee733a5b5d66f",
     "name" : "TestForAllureReport",
     "title" : "Test for allure report"
   },
@@ -24,9 +27,9 @@
     "name" : "stepSelectMainMenu[Застраховать себя]",
     "title" : "Выбран пунк меню Застраховать себя",
     "time" : {
-      "start" : 1517079628330,
-      "stop" : 1517079628666,
-      "duration" : 336
+      "start" : 1517080268179,
+      "stop" : 1517080268624,
+      "duration" : 445
     },
     "summary" : {
       "attachments" : 0,
@@ -39,9 +42,9 @@
     "name" : "stepSelectSubMenu[Страхование путешественников]",
     "title" : "Выбран пунк меню Страхование путешественников]",
     "time" : {
-      "start" : 1517079628666,
-      "stop" : 1517079631272,
-      "duration" : 2606
+      "start" : 1517080268625,
+      "stop" : 1517080271831,
+      "duration" : 3206
     },
     "summary" : {
       "attachments" : 0,
@@ -54,9 +57,9 @@
     "name" : "stepCheckText",
     "title" : "Выполнена проверка текстовки Страхование путешественников на странице SP",
     "time" : {
-      "start" : 1517079631273,
-      "stop" : 1517079631462,
-      "duration" : 189
+      "start" : 1517080271832,
+      "stop" : 1517080271968,
+      "duration" : 136
     },
     "summary" : {
       "attachments" : 0,
@@ -69,8 +72,8 @@
     "name" : "stepSendAppButton",
     "title" : "Выполнено нажатие на кнопку - оформить онлайн",
     "time" : {
-      "start" : 1517079631463,
-      "stop" : 1517079631645,
+      "start" : 1517080271969,
+      "stop" : 1517080272151,
       "duration" : 182
     },
     "summary" : {
@@ -84,9 +87,9 @@
     "name" : "stepSwitchWindow",
     "title" : "Выполнен переход на страницу выбора полиса",
     "time" : {
-      "start" : 1517079631645,
-      "stop" : 1517079631673,
-      "duration" : 28
+      "start" : 1517080272152,
+      "stop" : 1517080272197,
+      "duration" : 45
     },
     "summary" : {
       "attachments" : 0,
@@ -99,9 +102,9 @@
     "name" : "stepClickMinSum",
     "title" : "Выполнено нажатие на поле выберите сумму страховой защиты - Минимальная",
     "time" : {
-      "start" : 1517079631674,
-      "stop" : 1517079633071,
-      "duration" : 1397
+      "start" : 1517080272198,
+      "stop" : 1517080273564,
+      "duration" : 1366
     },
     "summary" : {
       "attachments" : 0,
@@ -114,9 +117,9 @@
     "name" : "stepClickButtonNext",
     "title" : "Выполнено нажатие на кнопку Продолжить",
     "time" : {
-      "start" : 1517079633071,
-      "stop" : 1517079633223,
-      "duration" : 152
+      "start" : 1517080273564,
+      "stop" : 1517080273684,
+      "duration" : 120
     },
     "summary" : {
       "attachments" : 0,
@@ -126,12 +129,12 @@
     "attachments" : [ ],
     "steps" : [ ]
   }, {
-    "name" : "stepFillFields[{Фамилия2=Ivanov, Имя=Иван, Фамилия=Иванов, Дата рождения2=01.01.1990, Имя2=Ivan, Отчество=Иванович, Дата...]",
+    "name" : "stepFillFields[{Фамилия2=Ivanov, Имя=Иван, Фамилия=Иванов, Дата рождения2=01.01.1990, Имя2=Ivan, Отчество=Иванови, Дата ...]",
     "title" : "Заполняются поля: ",
     "time" : {
-      "start" : 1517079633224,
-      "stop" : 1517079633847,
-      "duration" : 623
+      "start" : 1517080273685,
+      "stop" : 1517080274301,
+      "duration" : 616
     },
     "summary" : {
       "attachments" : 0,
@@ -143,9 +146,9 @@
       "name" : "stepFillField[Фамилия2, Ivanov]",
       "title" : "Поле Фамилия2 заполняется значенем Ivanov",
       "time" : {
-        "start" : 1517079633225,
-        "stop" : 1517079633307,
-        "duration" : 82
+        "start" : 1517080273686,
+        "stop" : 1517080273858,
+        "duration" : 172
       },
       "summary" : {
         "attachments" : 0,
@@ -158,9 +161,9 @@
       "name" : "stepFillField[Имя, Иван]",
       "title" : "Поле Имя заполняется значенем Иван",
       "time" : {
-        "start" : 1517079633308,
-        "stop" : 1517079633449,
-        "duration" : 141
+        "start" : 1517080273859,
+        "stop" : 1517080273919,
+        "duration" : 60
       },
       "summary" : {
         "attachments" : 0,
@@ -173,9 +176,9 @@
       "name" : "stepFillField[Фамилия, Иванов]",
       "title" : "Поле Фамилия заполняется значенем Иванов",
       "time" : {
-        "start" : 1517079633450,
-        "stop" : 1517079633518,
-        "duration" : 68
+        "start" : 1517080273919,
+        "stop" : 1517080273985,
+        "duration" : 66
       },
       "summary" : {
         "attachments" : 0,
@@ -188,9 +191,9 @@
       "name" : "stepFillField[Дата рождения2, 01.01.1990]",
       "title" : "Поле Дата рождения2 заполняется значенем 01.01.1990",
       "time" : {
-        "start" : 1517079633518,
-        "stop" : 1517079633621,
-        "duration" : 103
+        "start" : 1517080273985,
+        "stop" : 1517080274081,
+        "duration" : 96
       },
       "summary" : {
         "attachments" : 0,
@@ -203,9 +206,9 @@
       "name" : "stepFillField[Имя2, Ivan]",
       "title" : "Поле Имя2 заполняется значенем Ivan",
       "time" : {
-        "start" : 1517079633621,
-        "stop" : 1517079633686,
-        "duration" : 65
+        "start" : 1517080274082,
+        "stop" : 1517080274144,
+        "duration" : 62
       },
       "summary" : {
         "attachments" : 0,
@@ -215,12 +218,12 @@
       "attachments" : [ ],
       "steps" : [ ]
     }, {
-      "name" : "stepFillField[Отчество, Иванович]",
-      "title" : "Поле Отчество заполняется значенем Иванович",
+      "name" : "stepFillField[Отчество, Иванови]",
+      "title" : "Поле Отчество заполняется значенем Иванови",
       "time" : {
-        "start" : 1517079633686,
-        "stop" : 1517079633757,
-        "duration" : 71
+        "start" : 1517080274144,
+        "stop" : 1517080274210,
+        "duration" : 66
       },
       "summary" : {
         "attachments" : 0,
@@ -233,8 +236,8 @@
       "name" : "stepFillField[Дата рождения, 01.01.1990]",
       "title" : "Поле Дата рождения заполняется значенем 01.01.1990",
       "time" : {
-        "start" : 1517079633757,
-        "stop" : 1517079633847,
+        "start" : 1517080274211,
+        "stop" : 1517080274301,
         "duration" : 90
       },
       "summary" : {
@@ -249,49 +252,25 @@
     "name" : "stepCheckFields",
     "title" : "Поля заполнены!",
     "time" : {
-      "start" : 1517079633847,
-      "stop" : 1517079633916,
-      "duration" : 69
+      "start" : 1517080274302,
+      "stop" : 1517080274351,
+      "duration" : 49
     },
     "summary" : {
       "attachments" : 0,
       "steps" : 0
     },
-    "status" : "PASSED",
-    "attachments" : [ ],
-    "steps" : [ ]
-  }, {
-    "name" : "stepClickButton",
-    "title" : "Выполнено нажатие на кнопку - Продолжить",
-    "time" : {
-      "start" : 1517079633916,
-      "stop" : 1517079633988,
-      "duration" : 72
-    },
-    "summary" : {
-      "attachments" : 0,
-      "steps" : 0
-    },
-    "status" : "PASSED",
-    "attachments" : [ ],
-    "steps" : [ ]
-  }, {
-    "name" : "stepCheckError",
-    "title" : "Проверка появления текста Заполнены не все обязательные поля",
-    "time" : {
-      "start" : 1517079633989,
-      "stop" : 1517079634018,
-      "duration" : 29
-    },
-    "summary" : {
-      "attachments" : 0,
-      "steps" : 0
-    },
-    "status" : "PASSED",
+    "status" : "FAILED",
     "attachments" : [ ],
     "steps" : [ ]
   } ],
-  "attachments" : [ ],
+  "attachments" : [ {
+    "title" : "Скриншот ошибки",
+    "source" : "8c449d29-e5b0-4670-8aca-3ca4330377a1-attachment.png",
+    "type" : "image/png",
+    "size" : 74985,
+    "uid" : "4941f3effabbb57"
+  } ],
   "issues" : [ ],
   "testIds" : [ ],
   "labels" : [ {
@@ -301,9 +280,6 @@
     "name" : "language",
     "value" : "JAVA"
   }, {
-    "name" : "thread",
-    "value" : "4764@DESKTOP-DLBNCAD.main(1)"
-  }, {
     "name" : "host",
     "value" : "DESKTOP-DLBNCAD"
   }, {
@@ -312,6 +288,9 @@
   }, {
     "name" : "suite-title",
     "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "7300@DESKTOP-DLBNCAD.main(1)"
   } ],
   "parameters" : [ ]
 }

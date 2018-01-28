@@ -30,6 +30,7 @@ public class TestForAllureReport extends BaseSteps {
         testDate.put("Дата рождения", "01.01.1990");
         testDate.put("Дата рождения2", "01.01.1990");
 
+        mainSteps.stepTransferToSberbank();
         mainSteps.stepSelectMainMenu("Застраховать себя");
         mainSteps.stepSelectSubMenu("Страхование путешественников");
 

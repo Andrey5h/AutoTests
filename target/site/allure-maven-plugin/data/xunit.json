@@ -1,16 +1,16 @@
 {
   "time" : {
-    "start" : 1517079620099,
-    "stop" : 1517079634019,
-    "duration" : 13920
+    "start" : 1517080260927,
+    "stop" : 1517080274816,
+    "duration" : 13889
   },
   "testSuites" : [ {
-    "uid" : "89f137c31f8b00d5",
+    "uid" : "9fa35f4d7ff0b4eb",
     "name" : "MyRefactoringTest",
     "title" : "My refactoring test",
     "time" : {
-      "start" : 1517079620099,
-      "stop" : 1517079620099,
+      "start" : 1517080260927,
+      "stop" : 1517080260927,
       "duration" : 0
     },
     "statistic" : {
@@ -23,46 +23,46 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "441456cf4cce9121",
+      "uid" : "163c97a4d3a9e5ef",
       "name" : "newAutoTest",
       "title" : "New auto test",
       "time" : {
-        "start" : 1517079620099,
-        "stop" : 1517079620099,
+        "start" : 1517080260927,
+        "stop" : 1517080260927,
         "duration" : 0
       },
       "severity" : "NORMAL",
       "status" : "PENDING"
     } ]
   }, {
-    "uid" : "69affb93d7ee6c2e",
+    "uid" : "995ee733a5b5d66f",
     "name" : "TestForAllureReport",
     "title" : "Test for allure report",
     "time" : {
-      "start" : 1517079625241,
-      "stop" : 1517079634019,
-      "duration" : 8778
+      "start" : 1517080265119,
+      "stop" : 1517080274816,
+      "duration" : 9697
     },
     "statistic" : {
       "total" : 1,
-      "passed" : 1,
+      "passed" : 0,
       "pending" : 0,
       "canceled" : 0,
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "6282e7aae970d8dc",
+      "uid" : "6e3cd86c267fabd5",
       "name" : "testTravelInsurance",
       "title" : "Страхование путешественников",
       "time" : {
-        "start" : 1517079625241,
-        "stop" : 1517079634019,
-        "duration" : 8778
+        "start" : 1517080265119,
+        "stop" : 1517080274816,
+        "duration" : 9697
       },
       "severity" : "NORMAL",
-      "status" : "PASSED"
+      "status" : "FAILED"
     } ]
   } ]
 }

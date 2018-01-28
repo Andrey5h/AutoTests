@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestForAllureReport" time="14.686" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestForAllureReport" time="14.946" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="idea.version" value="2017.2.6"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -62,5 +62,16 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testTravelInsurance" classname="TestForAllureReport" time="8.778"/>
+  <testcase name="testTravelInsurance" classname="TestForAllureReport" time="9.24">
+    <failure message="expected:&lt;Иванови[ч]&gt; but was:&lt;Иванови[]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<Иванови[ч]> but was:<Иванови[]>
+	at TestForAllureReport.testTravelInsurance(TestForAllureReport.java:42)
+]]></failure>
+    <system-out><![CDATA[http://www.sberbank.ru/ru/person
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73) on port 48347
+Only local connections are allowed.
+янв 27, 2018 10:11:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
 </testsuite>
