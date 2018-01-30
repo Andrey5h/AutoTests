@@ -40,7 +40,7 @@ public class TestForAllureReport extends BaseSteps {
         spSteps.stepClickMinSum();
         spSteps.stepClickButtonNext();
         sendAppSteps.stepFillFields(testDate);
-        sendAppSteps.stepCheckFields();
+        sendAppSteps.stepCheckFillFields(testDate);
         sendAppSteps.stepClickButton();
         sendAppSteps.stepCheckError();
     }

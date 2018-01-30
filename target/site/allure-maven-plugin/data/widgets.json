@@ -11,9 +11,9 @@
         "broken" : 0
       },
       "time" : {
-        "start" : 1517135134266,
-        "stop" : 1517135148121,
-        "duration" : 13855
+        "start" : 1517339245710,
+        "stop" : 1517339259985,
+        "duration" : 14275
       }
     },
     "defects" : {
@@ -23,7 +23,7 @@
     "xunit" : {
       "totalCount" : 2,
       "items" : [ {
-        "uid" : "5cde9d6b94554c1c",
+        "uid" : "851607b795cd1da",
         "title" : "My refactoring test",
         "statistic" : {
           "total" : 1,
@@ -34,7 +34,7 @@
           "broken" : 0
         }
       }, {
-        "uid" : "d02f5cb5bc69d57",
+        "uid" : "50a679c15e838fd6",
         "title" : "Test for allure report",
         "statistic" : {
           "total" : 1,

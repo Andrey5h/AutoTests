@@ -11,6 +11,8 @@ import pages.SPpage;
 import pages.SendAppPage;
 import steps.BaseSteps;
 
+import static org.junit.Assert.assertEquals;
+
 public class MyRefactoringTest extends BaseSteps {
 
     @Test
@@ -38,9 +40,17 @@ public class MyRefactoringTest extends BaseSteps {
         sendAppPage.fillField("Имя2", "Ivan");
         sendAppPage.fillField("Дата рождения", "01.01.1990");
         sendAppPage.fillField("Дата рождения2", "01.01.1990");
-        sendAppPage.checkFields();
+
+        assertEquals("Иванов", sendAppPage.surname.getAttribute( "value" ));
+        assertEquals( "Иван", sendAppPage.name.getAttribute( "value" ) );
+        assertEquals( "Иванович", sendAppPage.middlename.getAttribute( "value" ) );
+        assertEquals( "Ivanov", sendAppPage.insured_surname.getAttribute( "value" ) );
+        assertEquals( "Ivan", sendAppPage.insured_name.getAttribute( "value" ) );
+        assertEquals( "01.01.1990", sendAppPage.insured_birthDate.getAttribute( "value" ) );
+        assertEquals( "01.01.1990", sendAppPage.birthDate.getAttribute( "value" ) );
+
         sendAppPage.sendButton.click();
-        sendAppPage.checkError();
+        assertEquals("Заполнены не все обязательные поля", sendAppPage.checkMessageError.getText());
 
     }
 

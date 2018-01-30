@@ -1,22 +1,22 @@
 {
-  "uid" : "2196131b4718558c",
+  "uid" : "4fb6493573bfbd8f",
   "name" : "testTravelInsurance",
   "title" : "Страхование путешественников",
   "time" : {
-    "start" : 1517135138466,
-    "stop" : 1517135148121,
-    "duration" : 9655
+    "start" : 1517339250968,
+    "stop" : 1517339259985,
+    "duration" : 9017
   },
   "summary" : {
     "attachments" : 0,
-    "steps" : 19
+    "steps" : 26
   },
   "failure" : null,
   "description" : null,
   "severity" : "NORMAL",
   "status" : "PASSED",
   "suite" : {
-    "uid" : "d02f5cb5bc69d57",
+    "uid" : "50a679c15e838fd6",
     "name" : "TestForAllureReport",
     "title" : "Test for allure report"
   },
@@ -24,9 +24,9 @@
     "name" : "stepTransferToSberbank",
     "title" : "Осуществлен переход на страницу сбербанка",
     "time" : {
-      "start" : 1517135138513,
-      "stop" : 1517135141346,
-      "duration" : 2833
+      "start" : 1517339251015,
+      "stop" : 1517339253703,
+      "duration" : 2688
     },
     "summary" : {
       "attachments" : 0,
@@ -39,9 +39,9 @@
     "name" : "stepSelectMainMenu[Застраховать себя]",
     "title" : "Выбран пунк меню Застраховать себя",
     "time" : {
-      "start" : 1517135141347,
-      "stop" : 1517135141760,
-      "duration" : 413
+      "start" : 1517339253704,
+      "stop" : 1517339254124,
+      "duration" : 420
     },
     "summary" : {
       "attachments" : 0,
@@ -54,9 +54,9 @@
     "name" : "stepSelectSubMenu[Страхование путешественников]",
     "title" : "Выбран пунк меню Страхование путешественников]",
     "time" : {
-      "start" : 1517135141761,
-      "stop" : 1517135144450,
-      "duration" : 2689
+      "start" : 1517339254125,
+      "stop" : 1517339256877,
+      "duration" : 2752
     },
     "summary" : {
       "attachments" : 0,
@@ -69,9 +69,9 @@
     "name" : "stepCheckText",
     "title" : "Выполнена проверка текстовки Страхование путешественников на странице SP",
     "time" : {
-      "start" : 1517135144452,
-      "stop" : 1517135144652,
-      "duration" : 200
+      "start" : 1517339256877,
+      "stop" : 1517339257079,
+      "duration" : 202
     },
     "summary" : {
       "attachments" : 0,
@@ -84,9 +84,9 @@
     "name" : "stepSendAppButton",
     "title" : "Выполнено нажатие на кнопку - оформить онлайн",
     "time" : {
-      "start" : 1517135144652,
-      "stop" : 1517135144799,
-      "duration" : 147
+      "start" : 1517339257080,
+      "stop" : 1517339257278,
+      "duration" : 198
     },
     "summary" : {
       "attachments" : 0,
@@ -99,9 +99,9 @@
     "name" : "stepSwitchWindow",
     "title" : "Выполнен переход на страницу выбора полиса",
     "time" : {
-      "start" : 1517135144800,
-      "stop" : 1517135144846,
-      "duration" : 46
+      "start" : 1517339257279,
+      "stop" : 1517339257358,
+      "duration" : 79
     },
     "summary" : {
       "attachments" : 0,
@@ -114,9 +114,9 @@
     "name" : "stepClickMinSum",
     "title" : "Выполнено нажатие на поле выберите сумму страховой защиты - Минимальная",
     "time" : {
-      "start" : 1517135144847,
-      "stop" : 1517135147203,
-      "duration" : 2356
+      "start" : 1517339257359,
+      "stop" : 1517339258445,
+      "duration" : 1086
     },
     "summary" : {
       "attachments" : 0,
@@ -129,9 +129,9 @@
     "name" : "stepClickButtonNext",
     "title" : "Выполнено нажатие на кнопку Продолжить",
     "time" : {
-      "start" : 1517135147204,
-      "stop" : 1517135147373,
-      "duration" : 169
+      "start" : 1517339258446,
+      "stop" : 1517339258555,
+      "duration" : 109
     },
     "summary" : {
       "attachments" : 0,
@@ -144,9 +144,9 @@
     "name" : "stepFillFields[{Фамилия2=Ivanov, Имя=Иван, Фамилия=Иванов, Дата рождения2=01.01.1990, Имя2=Ivan, Отчество=Иванович, Дата...]",
     "title" : "Заполняются поля: ",
     "time" : {
-      "start" : 1517135147374,
-      "stop" : 1517135147959,
-      "duration" : 585
+      "start" : 1517339258556,
+      "stop" : 1517339259824,
+      "duration" : 1268
     },
     "summary" : {
       "attachments" : 0,
@@ -158,9 +158,9 @@
       "name" : "stepFillField[Фамилия2, Ivanov]",
       "title" : "Поле Фамилия2 заполняется значенем Ivanov",
       "time" : {
-        "start" : 1517135147375,
-        "stop" : 1517135147476,
-        "duration" : 101
+        "start" : 1517339258557,
+        "stop" : 1517339259339,
+        "duration" : 782
       },
       "summary" : {
         "attachments" : 0,
@@ -173,9 +173,9 @@
       "name" : "stepFillField[Имя, Иван]",
       "title" : "Поле Имя заполняется значенем Иван",
       "time" : {
-        "start" : 1517135147477,
-        "stop" : 1517135147549,
-        "duration" : 72
+        "start" : 1517339259340,
+        "stop" : 1517339259399,
+        "duration" : 59
       },
       "summary" : {
         "attachments" : 0,
@@ -188,9 +188,9 @@
       "name" : "stepFillField[Фамилия, Иванов]",
       "title" : "Поле Фамилия заполняется значенем Иванов",
       "time" : {
-        "start" : 1517135147549,
-        "stop" : 1517135147616,
-        "duration" : 67
+        "start" : 1517339259399,
+        "stop" : 1517339259461,
+        "duration" : 62
       },
       "summary" : {
         "attachments" : 0,
@@ -203,8 +203,8 @@
       "name" : "stepFillField[Дата рождения2, 01.01.1990]",
       "title" : "Поле Дата рождения2 заполняется значенем 01.01.1990",
       "time" : {
-        "start" : 1517135147616,
-        "stop" : 1517135147719,
+        "start" : 1517339259461,
+        "stop" : 1517339259564,
         "duration" : 103
       },
       "summary" : {
@@ -218,9 +218,9 @@
       "name" : "stepFillField[Имя2, Ivan]",
       "title" : "Поле Имя2 заполняется значенем Ivan",
       "time" : {
-        "start" : 1517135147720,
-        "stop" : 1517135147785,
-        "duration" : 65
+        "start" : 1517339259564,
+        "stop" : 1517339259635,
+        "duration" : 71
       },
       "summary" : {
         "attachments" : 0,
@@ -233,9 +233,9 @@
       "name" : "stepFillField[Отчество, Иванович]",
       "title" : "Поле Отчество заполняется значенем Иванович",
       "time" : {
-        "start" : 1517135147785,
-        "stop" : 1517135147859,
-        "duration" : 74
+        "start" : 1517339259635,
+        "stop" : 1517339259720,
+        "duration" : 85
       },
       "summary" : {
         "attachments" : 0,
@@ -248,9 +248,9 @@
       "name" : "stepFillField[Дата рождения, 01.01.1990]",
       "title" : "Поле Дата рождения заполняется значенем 01.01.1990",
       "time" : {
-        "start" : 1517135147860,
-        "stop" : 1517135147959,
-        "duration" : 99
+        "start" : 1517339259721,
+        "stop" : 1517339259824,
+        "duration" : 103
       },
       "summary" : {
         "attachments" : 0,
@@ -261,27 +261,132 @@
       "steps" : [ ]
     } ]
   }, {
-    "name" : "stepCheckFields",
-    "title" : "Поля заполнены!",
+    "name" : "stepCheckFillFields[{Фамилия2=Ivanov, Имя=Иван, Фамилия=Иванов, Дата рождения2=01.01.1990, Имя2=Ivan, Отчество=Иванович,...]",
+    "title" : "поля заполнены верно",
     "time" : {
-      "start" : 1517135147959,
-      "stop" : 1517135148029,
-      "duration" : 70
+      "start" : 1517339259825,
+      "stop" : 1517339259902,
+      "duration" : 77
     },
     "summary" : {
       "attachments" : 0,
-      "steps" : 0
+      "steps" : 7
     },
     "status" : "PASSED",
     "attachments" : [ ],
-    "steps" : [ ]
+    "steps" : [ {
+      "name" : "stepCheckFillField[Фамилия2, Ivanov]",
+      "title" : "поле Фамилия2 заполнено значением Ivanov",
+      "time" : {
+        "start" : 1517339259826,
+        "stop" : 1517339259836,
+        "duration" : 10
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepCheckFillField[Имя, Иван]",
+      "title" : "поле Имя заполнено значением Иван",
+      "time" : {
+        "start" : 1517339259836,
+        "stop" : 1517339259852,
+        "duration" : 16
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepCheckFillField[Фамилия, Иванов]",
+      "title" : "поле Фамилия заполнено значением Иванов",
+      "time" : {
+        "start" : 1517339259852,
+        "stop" : 1517339259863,
+        "duration" : 11
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepCheckFillField[Дата рождения2, 01.01.1990]",
+      "title" : "поле Дата рождения2 заполнено значением 01.01.1990",
+      "time" : {
+        "start" : 1517339259863,
+        "stop" : 1517339259873,
+        "duration" : 10
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepCheckFillField[Имя2, Ivan]",
+      "title" : "поле Имя2 заполнено значением Ivan",
+      "time" : {
+        "start" : 1517339259873,
+        "stop" : 1517339259883,
+        "duration" : 10
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepCheckFillField[Отчество, Иванович]",
+      "title" : "поле Отчество заполнено значением Иванович",
+      "time" : {
+        "start" : 1517339259883,
+        "stop" : 1517339259892,
+        "duration" : 9
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "stepCheckFillField[Дата рождения, 01.01.1990]",
+      "title" : "поле Дата рождения заполнено значением 01.01.1990",
+      "time" : {
+        "start" : 1517339259892,
+        "stop" : 1517339259902,
+        "duration" : 10
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
   }, {
     "name" : "stepClickButton",
     "title" : "Выполнено нажатие на кнопку - Продолжить",
     "time" : {
-      "start" : 1517135148029,
-      "stop" : 1517135148096,
-      "duration" : 67
+      "start" : 1517339259903,
+      "stop" : 1517339259960,
+      "duration" : 57
     },
     "summary" : {
       "attachments" : 0,
@@ -294,9 +399,9 @@
     "name" : "stepCheckError",
     "title" : "Проверка появления текста Заполнены не все обязательные поля",
     "time" : {
-      "start" : 1517135148096,
-      "stop" : 1517135148120,
-      "duration" : 24
+      "start" : 1517339259960,
+      "stop" : 1517339259985,
+      "duration" : 25
     },
     "summary" : {
       "attachments" : 0,
@@ -310,9 +415,6 @@
   "issues" : [ ],
   "testIds" : [ ],
   "labels" : [ {
-    "name" : "thread",
-    "value" : "6596@DESKTOP-DLBNCAD.main(1)"
-  }, {
     "name" : "framework",
     "value" : "JUnit"
   }, {
@@ -327,6 +429,9 @@
   }, {
     "name" : "suite-title",
     "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "3280@DESKTOP-DLBNCAD.main(1)"
   } ],
   "parameters" : [ ]
 }
